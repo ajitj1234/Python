@@ -1,0 +1,14 @@
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 17:00:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> {"name":"ajit","age":28,"org":"Iq"}
+{'name': 'ajit', 'age': 28, 'org': 'Iq'}
+>>> {"name":"ajit","age":28,"org":"Iq"}[name]
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    {"name":"ajit","age":28,"org":"Iq"}[name]
+NameError: name 'name' is not defined
+>>> {"name":"ajit","age":28,"org":"Iq"}["name"]
+'ajit'
+>>> {"name":"ajit","age":28,"org":"Iq"}["org"]
+'Iq'
+>>> 

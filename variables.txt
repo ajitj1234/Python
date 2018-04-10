@@ -1,0 +1,44 @@
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 17:00:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> hello ajit
+SyntaxError: invalid syntax
+>>> "hello ajit"
+'hello ajit'
+>>> "hello variables"
+'hello variables'
+>>> x = "hello ajit"
+>>> print("x")
+x
+>>> print(x)
+hello ajit
+>>> x = "hello ajit".split(" ")[1]
+>>> print(x)
+ajit
+>>> x1 = "hello raj"
+>>> print(x1)
+hello raj
+>>> print(x+x1)
+ajithello raj
+>>> print(x)
+ajit
+>>> x1 = "hello raj".split(" ")[1]
+>>> print(x1)
+raj
+>>> print("x1")
+x1
+>>> print(x+x1)
+ajitraj
+>>> print((x+x1) + "jagtap")
+ajitrajjagtap
+>>> print("(x+x1) " + "jagtap")
+(x+x1) jagtap
+>>> print((x+x1)" " + "jagtap")
+SyntaxError: invalid syntax
+>>> x = x+x1
+>>> print(x)
+ajitraj
+>>> print(x+" (x+x1)")
+ajitraj (x+x1)
+>>> print(x+(x+x1))
+ajitrajajitrajraj
+>>> 
