@@ -1,0 +1,5 @@
+print("Boolean operator")
+print("true == true")
+print("("True" is str(True))")
+print("5 = 5")
+print("5 == 5")
